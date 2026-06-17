@@ -1,0 +1,44 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and outputs
+logs/
+logs_*/
+results/
+validate_results*/
+runs/
+*.log
+
+# Datasets
+VOCdevkit/
+TreeHeightDataset/
+TreeHeightDataset_AUG/
+*.zip
+*.rar
+*.7z
+
+# Model weights
+# .pth files are uploaded with Git LFS, so do not ignore them.
+*.pt
+*.onnx
+*.ckpt
+
+# Large raster/image outputs
+*.tif
+*.tiff
+*.npy
+*.npz
+
+# System files
+.DS_Store
+Thumbs.db

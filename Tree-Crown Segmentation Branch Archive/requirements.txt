@@ -1,0 +1,13 @@
+torch
+torchvision
+tensorboard
+scipy
+numpy
+matplotlib
+opencv-python
+tqdm
+Pillow
+h5py
+labelme==3.16.7
+scikit-image
+scikit-learn
